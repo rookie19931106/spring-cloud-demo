@@ -9,6 +9,8 @@
         <module>eureka-security-server</module>
         <module>user-service</module>
         <module>ribbon-service</module>
+        <module>hystrix-service</module>
+        <module>feign-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
