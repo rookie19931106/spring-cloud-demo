@@ -1,0 +1,5 @@
+spring:
+  applcation:
+    name: admin-server
+server:
+  port: 9301
