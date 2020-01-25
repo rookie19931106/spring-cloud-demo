@@ -17,3 +17,9 @@ management:
       show-details: always
 logging:
   file: admin-client.log
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
